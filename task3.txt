@@ -1,0 +1,58 @@
+Document Object vs window object:
+
+Document object:
+----------------- 
+
+=>Any html document or a webpage that is loades into a browser is known as a “document object”.
+
+=>It is loaded inside the window object.
+
+=>It is a object of window property. 
+
+=>All the tags ,elements with attribute of html are part of document object.      e.g<head><body>.
+
+=>Document comes under both DOM(document object model) & BOM(browser object model).
+
+=>It can be accessed by using window.document.
+		
+Window object:
+--------------
+
+=>A browser window or a frame which display the contents of a webpage is known as “window object”.
+
+=>It is the first object that is loaded inside the browser.(top most element of hierarchy table).
+
+=>It is a object of browser property.
+
+=>Functions , variables and all other objects which has their reference over global property is known as window object.
+
+=>Window is only a part of BOM & not DOM.
+
+=>It can be accessed by using window.window.
+
+screen object:
+--------------
+
+=>It is also a property of window.
+
+=>screen object is just tells that how ur screen is to be(or)it tells about the properties of screen which we use to see.
+
+=>The properties of screen are :-
+    height,width,pixel depth,screen orientatio n,color depth.
+
+=>you can access a it by using window.screen.
+
+
+Some other key points:
+----------------------
+
+--->To understand better just remind, DOCUMENT is just a object which is nested inside a WINDOW.
+
+--->WINDOWS are like a library which we can use to manipulate the contents of webpage,its css styles,javascript codes.
+
+---->screen object has properties over itself.
+
+
+
+
+
